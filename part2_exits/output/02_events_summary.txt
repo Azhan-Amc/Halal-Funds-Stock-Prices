@@ -1,0 +1,16 @@
+STEP 2 - ENTRY AND EXIT EVENTS (equity holdings, quarter to quarter)
+
+Fund   Reports Avg stocks  Entries  Exits Exits/qtr  Exits still in HLAL
+AMAGX       28         35       37     39       1.4                42.1%
+AMANX       28         34       23     36       1.3                30.3%
+HLAL        26        216      327    336      13.4                  n/a
+MNZL         3        453       75     44      22.0                11.4%
+SPUS        26        209      204    165       6.6                34.5%
+
+Candidate exits (left a market-cap fund, still held by HLAL): 88 events, 74 different stocks
+   AMAGX: 16
+   AMANX: 10
+   MNZL: 5
+   SPUS: 57
+
+Events saved: 1,286  ->  data/events.csv

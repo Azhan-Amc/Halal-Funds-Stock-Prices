@@ -1,0 +1,228 @@
+STEP 5 - RETURNS AFTER ENTERING / EXITING A HALAL FUND
+Abnormal return = stock return - benchmark return, from day 0 (before trading costs)
+
+============================================================================================
+[MAIN TEST]  Day 0 = report_date   Benchmark = HLAL
+============================================================================================
+
+  MEAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -1.1      1.1      5.7     -1.0
+  Entries - HLAL                 -0.2      0.6     -0.6      1.8
+  Entries - Amana                -0.6     -1.8      1.6     -4.4
+  CANDIDATE exits - SPUS         -2.2      1.1      1.5     -4.0
+  CANDIDATE exits - Amana         0.2     -2.8     -5.7      0.9
+  CANDIDATE exits - all          -1.0      0.2     -1.0     -2.6
+  Other exits - SPUS             -1.2     -1.5     -5.4    -12.4
+  Other exits - Amana             1.1      3.2      6.7     18.4
+  HLAL's own exits               -0.6      3.3      5.0     -2.2
+
+  MEDIAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -1.9     -0.5     -1.9     -6.1
+  Entries - HLAL                 -0.1      0.9     -1.5     -6.6
+  Entries - Amana                -0.8     -2.7      0.3     -3.3
+  CANDIDATE exits - SPUS         -2.4      1.3     -2.5    -14.4
+  CANDIDATE exits - Amana         1.6     -2.0     -5.1      6.9
+  CANDIDATE exits - all          -1.1     -0.7     -3.1     -9.0
+  Other exits - SPUS             -1.9      0.2     -2.3    -10.6
+  Other exits - Amana            -0.1      4.7      3.0      6.2
+  HLAL's own exits               -1.4      1.8     -1.4     -7.2
+
+  % of events beating the benchmark
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 42.9     49.7     45.9     45.5
+  Entries - HLAL                 49.5     51.7     46.8     44.3
+  Entries - Amana                45.8     40.0     53.3     42.9
+  CANDIDATE exits - SPUS         34.7     51.1     47.8     38.6
+  CANDIDATE exits - Amana        57.7     36.0     41.7     55.6
+  CANDIDATE exits - all          43.0     47.4     45.7     43.5
+  Other exits - SPUS             40.9     50.8     43.5     37.7
+  Other exits - Amana            48.9     67.4     56.1     62.9
+  HLAL's own exits               42.3     54.2     47.4     42.0
+
+  N events (quarters) and t-stat on quarter averages  (|t| > 2 = unlikely to be luck)
+  Group                                   1m              3m              6m             12m
+  Entries - SPUS             191 (23) t= 0.98 177 (22) t= 1.02 170 (21) t= 1.12 165 (19) t= 0.50
+  Entries - HLAL             301 (25) t=-0.58 288 (24) t=-0.03 269 (23) t=-0.14 255 (21) t= 0.60
+  Entries - Amana             48 (21) t= 0.37  45 (20) t=-0.21  45 (20) t= 1.13  42 (19) t= 0.08
+  CANDIDATE exits - SPUS      49 (17) t=-2.76  47 (16) t=-0.28  46 (15) t=-0.56  44 (14) t=-1.70
+  CANDIDATE exits - Amana     26 (16) t= 0.43  25 (15) t= 0.06  24 (14) t=-0.73  18 (12) t=-0.37
+  CANDIDATE exits - all       79 (26) t=-0.42  76 (25) t= 0.44  70 (23) t=-0.36  62 (21) t=-0.98
+  Other exits - SPUS          66 (19) t=-0.29  63 (17) t=-0.43  62 (16) t=-0.04  61 (15) t=-2.36
+  Other exits - Amana         45 (20) t= 0.11  43 (19) t= 1.57  41 (18) t= 1.04  35 (16) t= 1.78
+  HLAL's own exits           286 (25) t=-1.70 277 (24) t= 0.15 270 (23) t= 0.78 245 (21) t=-1.71
+
+============================================================================================
+[second view]  Day 0 = report_date   Benchmark = SPY
+============================================================================================
+
+  MEAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -0.4      1.0      5.4     -1.0
+  Entries - HLAL                 -0.1      0.7     -0.1      3.0
+  Entries - Amana                 0.0     -1.1      1.7     -4.1
+  CANDIDATE exits - SPUS         -1.8      1.4      1.4     -4.1
+  CANDIDATE exits - Amana         0.4     -2.6     -4.8      0.0
+  CANDIDATE exits - all          -0.6      0.6     -0.7     -2.9
+  Other exits - SPUS             -0.8     -0.9     -4.0     -8.6
+  Other exits - Amana             1.3      4.0      8.1     19.7
+  HLAL's own exits               -0.2      3.6      5.5     -1.4
+
+  MEDIAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -0.9      0.3     -2.2     -5.0
+  Entries - HLAL                  0.1      0.9     -0.8     -3.8
+  Entries - Amana                -0.0     -1.8      2.1     -4.2
+  CANDIDATE exits - SPUS         -2.0     -0.0     -4.3    -13.9
+  CANDIDATE exits - Amana         1.5     -3.2     -5.3     -0.7
+  CANDIDATE exits - all          -1.2     -0.1     -4.3     -7.3
+  Other exits - SPUS             -1.4      1.5     -3.1     -6.2
+  Other exits - Amana             1.0      3.9      4.2      8.5
+  HLAL's own exits               -0.9      2.0      0.5     -6.4
+
+  % of events beating the benchmark
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 44.5     50.8     43.5     45.5
+  Entries - HLAL                 50.5     51.0     48.7     44.7
+  Entries - Amana                50.0     40.0     55.6     40.5
+  CANDIDATE exits - SPUS         38.8     48.9     47.8     40.9
+  CANDIDATE exits - Amana        57.7     40.0     41.7     50.0
+  CANDIDATE exits - all          45.6     47.4     45.7     43.5
+  Other exits - SPUS             45.5     54.0     41.9     44.3
+  Other exits - Amana            53.3     62.8     56.1     57.1
+  HLAL's own exits               46.9     53.4     50.4     40.8
+
+  N events (quarters) and t-stat on quarter averages  (|t| > 2 = unlikely to be luck)
+  Group                                   1m              3m              6m             12m
+  Entries - SPUS             191 (23) t= 1.19 177 (22) t= 1.07 170 (21) t= 1.14 165 (19) t= 0.65
+  Entries - HLAL             301 (25) t=-0.37 288 (24) t= 0.07 269 (23) t= 0.01 255 (21) t= 0.72
+  Entries - Amana             48 (21) t= 0.89  45 (20) t=-0.01  45 (20) t= 1.32  42 (19) t= 0.01
+  CANDIDATE exits - SPUS      49 (17) t=-2.34  47 (16) t=-0.28  46 (15) t=-0.77  44 (14) t=-1.75
+  CANDIDATE exits - Amana     26 (16) t= 0.60  25 (15) t= 0.09  24 (14) t=-0.59  18 (12) t=-0.28
+  CANDIDATE exits - all       79 (26) t=-0.11  76 (25) t= 0.50  70 (23) t=-0.36  62 (21) t=-0.95
+  Other exits - SPUS          66 (19) t= 0.07  63 (17) t=-0.26  62 (16) t= 0.01  61 (15) t=-2.29
+  Other exits - Amana         45 (20) t= 0.41  43 (19) t= 1.99  41 (18) t= 1.22  35 (16) t= 1.80
+  HLAL's own exits           286 (25) t=-1.54 277 (24) t= 0.29 270 (23) t= 0.91 245 (21) t=-1.60
+
+============================================================================================
+[second view]  Day 0 = filing_date   Benchmark = HLAL
+============================================================================================
+
+  MEAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                  0.0     -0.8     -0.5     -2.8
+  Entries - HLAL                  1.1     -0.6     -0.0      9.0
+  Entries - Amana                 0.4      2.6     -0.5     -1.6
+  CANDIDATE exits - SPUS          2.7     -0.6     -1.6     -2.6
+  CANDIDATE exits - Amana        -2.0     -1.1     -2.0      0.3
+  CANDIDATE exits - all           1.0     -0.8     -1.7     -1.7
+  Other exits - SPUS              0.0     -3.3     -3.7     -9.0
+  Other exits - Amana             0.0      1.9      1.0      9.2
+  HLAL's own exits                0.9      1.2      1.2     -2.1
+
+  MEDIAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                  0.5     -1.6     -3.5     -6.8
+  Entries - HLAL                  0.7     -2.2     -3.7     -8.9
+  Entries - Amana                 1.4      2.7     -0.9     -3.0
+  CANDIDATE exits - SPUS         -1.2     -1.7     -7.5    -10.1
+  CANDIDATE exits - Amana        -4.6     -0.5     -4.7     -6.2
+  CANDIDATE exits - all          -2.2     -1.3     -5.7     -8.7
+  Other exits - SPUS              0.9     -0.4     -0.2    -10.2
+  Other exits - Amana             0.1      2.2     -0.9      3.4
+  HLAL's own exits                0.3     -1.3     -2.7     -9.0
+
+  % of events beating the benchmark
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 51.7     45.2     42.4     41.2
+  Entries - HLAL                 53.8     44.8     44.6     38.0
+  Entries - Amana                64.4     60.0     46.7     38.1
+  CANDIDATE exits - SPUS         48.9     44.7     39.1     31.8
+  CANDIDATE exits - Amana        40.0     48.0     33.3     38.9
+  CANDIDATE exits - all          46.1     45.8     37.1     33.9
+  Other exits - SPUS             57.8     47.6     50.0     36.1
+  Other exits - Amana            51.2     58.1     43.9     57.1
+  HLAL's own exits               52.0     46.6     46.3     41.2
+
+  N events (quarters) and t-stat on quarter averages  (|t| > 2 = unlikely to be luck)
+  Group                                   1m              3m              6m             12m
+  Entries - SPUS             180 (22) t= 0.71 177 (22) t= 0.65 170 (21) t= 1.15 165 (19) t=-0.09
+  Entries - HLAL             290 (24) t= 0.91 288 (24) t=-0.20 269 (23) t= 0.22 255 (21) t= 0.92
+  Entries - Amana             45 (20) t= 0.44  45 (20) t= 1.84  45 (20) t= 0.12  42 (19) t= 0.59
+  CANDIDATE exits - SPUS      47 (16) t= 0.73  47 (16) t=-0.16  46 (15) t=-1.67  44 (14) t=-0.87
+  CANDIDATE exits - Amana     25 (15) t=-0.66  25 (15) t=-0.19  24 (14) t=-0.40  18 (12) t=-0.54
+  CANDIDATE exits - all       76 (25) t= 0.59  72 (24) t=-0.03  70 (23) t=-1.10  62 (21) t=-0.81
+  Other exits - SPUS          64 (18) t=-0.17  63 (17) t=-0.49  62 (16) t=-0.35  61 (15) t=-2.31
+  Other exits - Amana         43 (19) t= 0.65  43 (19) t= 1.12  41 (18) t= 0.22  35 (16) t= 1.67
+  HLAL's own exits           279 (24) t= 1.02 277 (24) t= 0.42 270 (23) t= 0.43 245 (21) t=-0.70
+
+============================================================================================
+[second view]  Day 0 = filing_date   Benchmark = SPY
+============================================================================================
+
+  MEAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -0.4     -1.1     -0.3     -3.5
+  Entries - HLAL                  1.4     -0.1      0.5     10.1
+  Entries - Amana                 0.4      2.2     -0.6     -1.9
+  CANDIDATE exits - SPUS          2.7      0.1     -1.9     -3.3
+  CANDIDATE exits - Amana        -1.7     -1.1     -0.6     -0.3
+  CANDIDATE exits - all           1.0     -0.3     -1.4     -2.5
+  Other exits - SPUS              0.0     -2.3     -2.1     -7.5
+  Other exits - Amana             0.5      2.2      2.7      9.9
+  HLAL's own exits                1.3      1.3      1.4     -2.0
+
+  MEDIAN abnormal return (%)
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 -0.1     -2.4     -2.9     -5.5
+  Entries - HLAL                  1.1     -1.6     -2.1     -6.9
+  Entries - Amana                 0.8      2.3     -1.9     -2.4
+  CANDIDATE exits - SPUS          0.3      1.4     -5.9    -10.8
+  CANDIDATE exits - Amana        -2.1     -1.3     -5.0     -9.1
+  CANDIDATE exits - all          -1.4      0.7     -5.3    -10.4
+  Other exits - SPUS              1.8     -0.6     -0.3     -9.4
+  Other exits - Amana             0.2      2.5     -1.7      2.4
+  HLAL's own exits                0.7     -0.9     -1.5     -7.8
+
+  % of events beating the benchmark
+  Group                            1m       3m       6m      12m
+  Entries - SPUS                 50.0     43.5     45.3     43.0
+  Entries - HLAL                 55.5     45.1     45.0     40.0
+  Entries - Amana                60.0     62.2     46.7     47.6
+  CANDIDATE exits - SPUS         51.1     53.2     37.0     29.5
+  CANDIDATE exits - Amana        40.0     48.0     41.7     44.4
+  CANDIDATE exits - all          47.4     51.4     38.6     33.9
+  Other exits - SPUS             57.8     47.6     50.0     37.7
+  Other exits - Amana            51.2     60.5     48.8     54.3
+  HLAL's own exits               52.3     48.0     45.2     40.4
+
+  N events (quarters) and t-stat on quarter averages  (|t| > 2 = unlikely to be luck)
+  Group                                   1m              3m              6m             12m
+  Entries - SPUS             180 (22) t= 0.74 177 (22) t= 0.71 170 (21) t= 1.28 165 (19) t= 0.03
+  Entries - HLAL             290 (24) t= 1.39 288 (24) t= 0.06 269 (23) t= 0.38 255 (21) t= 0.92
+  Entries - Amana             45 (20) t= 0.71  45 (20) t= 1.89  45 (20) t= 0.25  42 (19) t= 0.52
+  CANDIDATE exits - SPUS      47 (16) t= 0.76  47 (16) t=-0.29  46 (15) t=-2.00  44 (14) t=-1.01
+  CANDIDATE exits - Amana     25 (15) t=-0.59  25 (15) t=-0.09  24 (14) t= 0.00  18 (12) t=-0.49
+  CANDIDATE exits - all       76 (25) t= 0.52  72 (24) t=-0.03  70 (23) t=-1.08  62 (21) t=-0.87
+  Other exits - SPUS          64 (18) t=-0.10  63 (17) t=-0.45  62 (16) t=-0.27  61 (15) t=-2.39
+  Other exits - Amana         43 (19) t= 0.82  43 (19) t= 1.19  41 (18) t= 0.33  35 (16) t= 1.66
+  HLAL's own exits           279 (24) t= 1.31 277 (24) t= 0.67 270 (23) t= 0.70 245 (21) t=-0.66
+
+============================================================================================
+RETURN PATH vs HLAL around day 0 = report_date (mean %, stock relative to its own day-0 level)
+Negative before day 0 = stock was HIGHER before (it fell into the event).
+============================================================================================
+  Group                        d-252   d-126    d-63    d-21      d0     d21     d63    d126    d252
+  Entries - SPUS                -3.3     0.2     3.3     2.5     0.0    -1.0     1.2     5.1    -0.7
+  Entries - HLAL                11.4     6.0     2.2     0.6     0.0    -0.2     0.6    -0.4     1.4
+  Entries - Amana               -5.7    -4.3    -0.3    -0.6     0.0    -0.5    -1.6     1.4    -3.6
+  CANDIDATE exits - SPUS        21.6     9.9     3.6     0.4     0.0    -2.2     1.2     1.3    -4.3
+  CANDIDATE exits - Amana       46.9    26.1    12.1     2.7     0.0     0.4    -2.4    -4.8     0.4
+  CANDIDATE exits - all         30.4    14.2     5.6     1.2     0.0    -0.9     0.4    -0.8    -2.9
+  Other exits - SPUS            20.9     5.7    -2.6    -0.8     0.0    -1.2    -1.2    -4.4    -9.1
+  Other exits - Amana           13.7    11.2     8.3     0.2     0.0     1.1     3.4     6.0    14.0
+  HLAL's own exits              28.2     6.7     1.7    -0.3     0.0    -0.6     3.3     4.4    -2.2
+
+Events measured: 1152 (of 1286; the rest have no prices)
+Price data ends: 2026-11-04  (recent events have no 12m result yet)

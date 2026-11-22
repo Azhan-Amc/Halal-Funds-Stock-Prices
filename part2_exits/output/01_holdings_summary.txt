@@ -1,0 +1,10 @@
+STEP 1 - FUND HOLDINGS DOWNLOADED FROM SEC N-PORT
+
+Fund   Reports  First report  Last report  Avg holdings  Equity %
+AMAGX       28    2019-11-30   2026-08-31            35     99.7%
+AMANX       28    2019-11-30   2026-08-31            34     99.7%
+HLAL        26    2020-05-31   2026-08-31           216    100.0%
+MNZL         3    2026-01-30   2026-07-31           468     96.9%
+SPUS        26    2020-05-31   2026-08-31           209    100.0%
+
+Rows saved: 14,389  ->  data/holdings_quarterly.csv

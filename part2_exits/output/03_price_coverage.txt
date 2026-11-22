@@ -1,0 +1,23 @@
+STEP 3 - TICKERS AND PRICES
+
+Stocks: 570   ticker source: nport 554, openfigi 12, not found 4
+
+Events                              Count     Ticker     Prices
+All events                           1286      99.7%      89.7%
+  entries                             666      99.8%      92.8%
+  exits                               620      99.5%      86.3%
+Candidate exits (still in HLAL)        88     100.0%      93.2%
+  candidates from AMAGX                16     100.0%     100.0%
+  candidates from AMANX                10     100.0%     100.0%
+  candidates from MNZL                  5     100.0%      80.0%
+  candidates from SPUS                 57     100.0%      91.2%
+
+Benchmarks: SPY 1972 days, HLAL 1838 days, SPUS 1729 days
+
+Candidate exits WITHOUT prices (often acquired/delisted - step 4 checks):
+  MNZL | 2026-04-30 | Hologic Inc | 436440101 | HOLX
+  SPUS | 2020-08-31 | Concho Resources Inc | 20605P101 | CXO
+  SPUS | 2022-02-28 | Walgreens Boots Alliance Inc | 931427108 | WBA
+  SPUS | 2024-02-29 | WK Kellogg Co | 92942W107 | KLG
+  SPUS | 2024-05-31 | Dayforce Inc | 15677J108 | DAY
+  SPUS | 2024-11-30 | Walgreens Boots Alliance Inc | 931427108 | WBA

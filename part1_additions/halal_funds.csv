@@ -1,0 +1,15 @@
+ticker,name,issuer,type,index_or_method,rebalance,holds_us_stocks,approx_aum_musd,include,note
+SPUS,SP Funds S&P 500 Shariah Industry Exclusions ETF,SP Funds,passive ETF,S&P 500 Shariah (Industry Exclusions),monthly,yes,3390,yes,largest forced buyer among ETFs
+HLAL,Wahed FTSE USA Shariah ETF,Wahed,passive ETF,FTSE USA Shariah,quarterly,yes,970,yes,
+MNZL,Manzil Russell Halal USA Broad Market ETF,Manzil,passive ETF,Russell IdealRatings Manzil Halal USA,quarterly,yes,35,yes,launched Nov 2025
+SPTE,SP Funds S&P Global Technology ETF,SP Funds,passive ETF,S&P Global Technology Shariah,S&P Shariah cycle,yes (mostly),224,yes,tech only
+SPRE,SP Funds S&P Global REIT Sharia ETF,SP Funds,passive ETF,S&P Global All Equity REIT Shariah Capped,S&P Shariah cycle,yes (REITs),215,yes,REITs only
+KWIN,KraneShares Wahed Alternative Income Index ETF,KraneShares / Wahed,passive ETF,Wahed Shariah Alternative Income,quarterly,yes,60,yes,tracked as demand only; uses FLEX options so not a fund to invest in yourself
+AMAGX,Amana Growth Fund,Saturna (Amana),active mutual fund,Saturna Islamic screens (debt < 33% mkt cap),monthly screen,yes,6500,yes,largest halal US equity buyer; not forced by an index
+AMANX,Amana Income Fund,Saturna (Amana),active mutual fund,Saturna Islamic screens,monthly screen,yes,2360,yes,not forced by an index
+AMGR,Amana Growth ETF,Saturna (Amana),active ETF,Saturna Islamic screens,monthly screen,yes,5,no,launched Jun 2026; same portfolio and manager as AMAGX (tracked through AMAGX to avoid counting one manager twice)
+AMEI,Amana Equity Income ETF,Saturna (Amana),active ETF,Saturna Islamic screens,monthly screen,yes,6,no,launched Jun 2026; same portfolio and manager as AMANX (tracked through AMANX to avoid counting one manager twice)
+SPWO,SP Funds S&P World (ex-US) ETF,SP Funds,passive ETF,S&P World ex-US Shariah,S&P Shariah cycle,no,200,no,non-US stocks only
+UMMA,Wahed Dow Jones Islamic World ETF,Wahed,passive ETF,Dow Jones Islamic World ex-US,quarterly,no,301,no,non-US stocks only
+AMEM,Amana Developing World ETF,Saturna (Amana),active ETF,Saturna Islamic screens,monthly screen,no,4,no,emerging markets only
+SPSK,SP Funds Dow Jones Global Sukuk ETF,SP Funds,passive ETF,Dow Jones Sukuk,—,no,638,no,sukuk not stocks

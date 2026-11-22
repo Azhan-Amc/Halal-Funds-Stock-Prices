@@ -1,0 +1,8 @@
+data/
+*/data/
+daily/
+*.zip
+__pycache__/
+.DS_Store
+.venv/
+venv/
